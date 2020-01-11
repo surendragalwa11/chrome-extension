@@ -1,0 +1,24 @@
+{
+    "name": "Your favourite places",
+     "options_page": "options.html",
+    "version": "1.0",
+    "description": "Your favourite places!",
+    "permissions": ["storage", "declarativeContent", "activeTab","tabs", "<all_urls>", "http://dummy.restapiexample.com/api/v1/employees"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/surendra.png",
+        "32": "images/surendra_32.png",
+        "48": "images/surendra_64.png",
+        "128": "images/get_started128.png"
+      }
+    },
+   "icons": {
+      "16": "images/surendra.png",
+      "32": "images/surendra_32.png",
+      "48": "images/surendra_64.png",
+      "128": "images/get_started128.png"
+    },
+       "manifest_version": 2
+
+}
